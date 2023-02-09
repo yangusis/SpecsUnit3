@@ -1,0 +1,28 @@
+.foot {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.leftBtns {
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.leftBtns div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.foot svg {
+    padding-right: 30px;
+    transform: scale(.8);
+}

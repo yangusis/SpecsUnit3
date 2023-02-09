@@ -1,0 +1,26 @@
+.rCard {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 360px;
+    box-shadow: 0 0 10px gray;
+    padding-bottom: 10px;
+}
+
+.rCard img {
+    height: 300px;
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.rCard button {
+    background-color: teal;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 2px;
+    /*box-shadow: 0 0 4px black;*/
+}

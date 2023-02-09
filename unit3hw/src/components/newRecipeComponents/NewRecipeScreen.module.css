@@ -1,0 +1,102 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+}
+
+.input1 input {
+    padding: 5px;
+    height: 26px;
+    width: 200px;
+    border-color: black;
+    border-style: groove;
+}
+
+.input2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input2 input {
+    height: 40px;
+    width: 40px;
+}
+
+.input2 label {
+    font-size: 20px;
+    margin-left: -40px;
+    margin-top: 12px;
+}
+
+.input3 {
+    display: flex;
+    justify-content: center;
+}
+
+.input3 input {
+    padding: 5px;
+    height: 26px;
+    width: 125px;
+    border-color: black;
+    border-style: groove;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.ingredients input {
+    padding: 5px;
+    height: 26px;
+    width: 125px;
+    border-color: black;
+    border-style: groove;
+}
+
+.ingredients button {
+    color: white;
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.submitButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: 30px;
+    width: 100px;
+    background-color: teal;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+input {
+    margin: 5px;
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.card1 {
+    padding: 10px;
+    line-height: 1.6;
+    box-shadow: 0 0 15px gray;
+    width: 240px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card2 {
+    box-shadow: 0 0 15px gray;
+    width: 500px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card2 h2 {
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}

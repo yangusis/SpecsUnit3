@@ -1,0 +1,36 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    color: darkorange;
+    font-size: 50px;
+}
+
+.banner h3 {
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.banner button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: 30px;
+    width: 100px;
+    background-color: teal;
+    border: none;
+    font-size: 15px;
+    box-shadow: 4px, 4px, 15px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,24 @@
+.header {
+    color: white;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    height: 60px;
+    font-size: 20px;
+}
+
+.navi button {
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    height: 60px;
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+}
+
+.navi button:hover {
+    background-color: lightyellow;
+}
